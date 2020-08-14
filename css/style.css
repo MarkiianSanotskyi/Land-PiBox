@@ -1,0 +1,242 @@
+html, body{ background: #fff;margin:0;padding:0;width:100%;height:100%;color:#101010;font-size:15px;font-family: 'robotoregular';}
+.empty{height:211px;}
+.wrapper{position:relative; min-height:100%;height:auto !important;height:100%;}
+.inline{display:inline-block; vertical-align:top;}
+
+.container{max-width: none !important;width: 970px;}
+
+a{color:#1d84c5;text-decoration:none;}
+a:hover,
+a:focus{text-decoration:none;outline:none;}
+
+a[href^=tel]{color:#ffffff}
+img{border:none;}
+
+h1, h2, h3, h4, h5, h6 {padding:0;line-height: normal;color:#006699;}
+h1{font-size:29px;margin:0 0 5px 0;}
+h2{font-size:22px;margin:0;}
+h3{font-size:18px;margin:0;}
+
+::selection { background: #e2e0e0; color:#ffffff;  }
+::-moz-selection { background: #e2e0e0; color:#ffffff; }
+svg:not(:root) { overflow: hidden; } 
+.chromeframe { margin: 0.2em 0; background: #e2e0e0; color: black; padding: 0.2em 0; }
+.tag{width:100%;height:96px;margin: -96px 0 0 0;display:block; position:absolute;left:0px;z-index:-1;}
+
+
+
+#header{width:100%;height:600px;min-width:970px;position:relative;background:url(../images/bg-header.jpg) 0% 0px no-repeat;background-size:cover;}
+.top-header{background-color:#fff;width:100%;min-width:970px;height:56px;position:fixed;z-index:9999;border-bottom:1px solid #ededed;}
+
+ul.nav-list{margin:0px;padding:15px 0px 0px 0px;}
+ul.nav-list li{display:inline-block;vertical-align:top;margin-right:35px;}
+ul.nav-list li a{font-size:14px;color:#787878;transition: all  0.3s ease-in;-moz-transition: all  0.3s ease-in;-webkit-transition: all  0.3s ease-in;border-bottom:4px solid #fff;padding-bottom:5px;}
+ul.nav-list li a:hover,
+ul.nav-list li a.selected{color:#3a3a3a;border-bottom:4px solid #217ce5;}
+
+.multi-lang a{width:74px;height:56px;border-left:1px solid #ededed;border-right:1px solid #ededed;float:right;text-align:center;line-height:56px;font-size:14px;color:#787878;padding-right:10px;background-color:#fff;transition: all  0.3s ease-in;-moz-transition: all  0.3s ease-in;-webkit-transition: all  0.3s ease-in;border-bottom:1px solid #ededed;}
+.multi-lang a.used{background-image:url(../images/ico-lang-arrow.png);background-position: 79% 52%;background-repeat:no-repeat;background-size:9px 5px;}
+.multi-lang {overflow:hidden;height:56px;}
+.multi-lang.active{height:auto;}
+.multi-lang a:hover{background-color:#efeded;}
+
+#header .container-fluid,
+#header .col-xs-12{padding:0px;}
+#header  .container-fluid .row{margin:0px;}
+.header-box{position:relative;top:56px;}
+ul.header-list{margin:0px;padding:0px;}
+ul.header-list li{list-style:none;height:544px;float:left;width:33.33333%;}
+ul.header-list li a{display:block;height:544px;text-align:center;padding-top:59px;transition: all  0.3s ease-in;-moz-transition: all  0.3s ease-in;-webkit-transition: all  0.3s ease-in;}
+ul.header-list li a:hover{background-color:rgba(61,150,186,0.5);}
+ul.header-list li .image-box{margin-bottom:40px;}
+ul.header-list li.web-version a{padding-top:139px;}
+ul.header-list li.android a{padding-top:68px;}
+
+
+ul.header-list li.iphone .image-box{background-image:url(../images/img-iphone.png);background-position:50% 0%;background-repeat:no-repeat;background-size:174px 353px;height:353px;}
+ul.header-list li.web-version .image-box{background-image:url(../images/img-display.png);background-position:50% 0%;background-repeat:no-repeat;background-size:326px 273px;height:274px;}
+ul.header-list li.android .image-box{background-image:url(../images/img-android.png);background-position:50% 0%;background-repeat:no-repeat;background-size:171px 352px;height:353px;margin-bottom:30px;}
+ul.header-list li .name{font-size:14px;color:#ffffff;text-decoration:underline;}
+ul.header-list li .name span{font-family: 'robotobold';}
+ul.header-list li.iphone .name,
+ul.header-list li.android .name{position:relative;}
+ul.header-list li.iphone .name:before{content:"";display:inline-block;vertical-align:top;background-image:url(../images/ico-apple-logo.png);background-position:top center;background-repeat:no-repeat;background-size:16px 20px;width:16px;height:20px;margin-right:13px;}
+ul.header-list li.android .name:before{content:"";display:inline-block;vertical-align:top;background-image:url(../images/ico-android-logo.png);background-position:top center;background-repeat:no-repeat;background-size:17px 20px;width:17px;height:20px;margin-right:13px;}
+
+#header .logo{position:absolute;top :29px;left:50%;margin-left:-100px;}
+#header .logo a{display:block;background-image:url(../images/logo-header.png);background-repeat:no-repeat;background-position:top center;background-size:200px 88px;width:200px;height:88px;}
+
+.scroll-down{text-align:center;}
+.scroll-down a{display:inline-block;vertical-align:top;font-size:12px;color:#87d2e0;position:relative;top:-45px;}
+.scroll-down a:after{content:"";display:block;background-image:url(../images/ico-arrow-down.png);background-position:top center;background-repeat:no-repeat;background-size:9px 5px;width:9px;height:5px;position:absolute;bottom:-10px;left:50%;margin-left:-5px;transition: all  0.3s ease-in;-moz-transition: all  0.3s ease-in;-webkit-transition: all  0.3s ease-in;}
+.scroll-down a:hover:after{bottom:-15px;}
+
+
+.title h5{font-size:18px;color:#3a3a3a;text-align:center;margin:0px;}
+
+#advantages{padding-top:55px;width:100%;min-width:970px;margin-bottom:100px;}
+
+.title{margin-bottom:50px;}
+ul.advantages-list{margin:0px;padding:0px;}
+ul.advantages-list li{list-style:none;}
+ul.advantages-list li .image-box{width:100%;height:98px;background-image:url(../images/ico-what-pibox-1.png);background-position:center center;background-repeat:no-repeat;background-size:111px 98px;margin-bottom:25px;}
+ul.advantages-list li .image-box.second{background-image:url(../images/ico-what-pibox-2.png);background-size:137px 88px;}
+ul.advantages-list li .image-box.third{background-image:url(../images/ico-what-pibox-3.png);background-size:154px 87px;}
+ul.advantages-list li .image-box.fourth{background-image:url(../images/ico-what-pibox-4.png);background-size:182px 87px;}
+ul.advantages-list li {text-align:center;}
+ul.advantages-list li h5{color:#3a3a3a;text-transform:uppercase;font-size:18px;font-family: 'sf_ui_displaybold';margin-bottom:10px;margin-top:0px;}
+ul.advantages-list li p{font-size:12px;color:#3a3a3a; font-family: 'sf_ui_displayregular';line-height:13px;}
+ul.advantages-list li p span{font-family: 'sf_ui_displaybold';}
+
+.app-overwiew-box .image-box{width:250px;height:498px;background-image:url(../images/img-iphone-services-1.png);background-position:top center;background-repeat:no-repeat;background-size:250px 498px;}
+.app-overwiew-box{width:800px;margin:0 auto;}
+.app-overwiew-box .row{margin-bottom:70px;}
+
+.app-overwiew-box .image-box.second{background-image:url(../images/img-iphone-services-2.png);}
+.app-overwiew-box .image-box.third{background-image:url(../images/img-iphone-services-3.png);}
+
+.app-overwiew-box .text-box{padding-left:50px;position:relative;padding-top:97px;}
+.app-overwiew-box .text-box h4{text-transform:uppercase;font-size:24px;color:#3a3a3a;font-family: 'robotobold';position:relative;margin-top:0px;margin-bottom:15px;}
+.app-overwiew-box .text-box h4:before{content:"";display:block;background-image:url(../images/ico-group-chat.png);background-position:top center;background-repeat:no-repeat;background-size:73px 41px;width:73px;height:41px;position:absolute;top:-58px;left:0px;}
+.app-overwiew-box .text-box p{font-size:15px;color:#3a3a3a;line-height:18px;}
+.comment-box{margin-top:50px;position:relative;}
+.comment-box .avatar{float:left;width:39px;height:39px;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;position:absolute;left:-50px;bottom:0px;overflow:hidden;}
+.comment-box .avatar img{width:100%;height:100%;}
+.comment-text{width:100%;background-color:#e4eaef;padding:25px 20px;border-radius: 8px 8px 8px 0px;-webkit-border-radius: 8px 8px 8px 0px;-moz-border-radius: 8px 8px 8px 0px;}
+.comment-text .name-comment{font-size:15px;color:#3a3a3a;font-family: 'robotobold';margin-bottom:20px;}
+.comment-text p{font-size:15px;color:#3a3a3a; font-family: 'robotoitalic';}
+
+.text-box.chat{padding-left:0px;padding-right:50px;}
+.text-box.chat .comment-box .avatar{left:inherit;right:-50px;}
+
+.app-overwiew-box .text-box.chat h4:before{content:"";display:block;background-image:url(../images/ico-chat-mode.png);background-position:top center;background-repeat:no-repeat;background-size:34px 43px;width:34px;height:43px;position:absolute;top:-58px;left:0px;}
+.image-box.second{margin-left:auto;background-position:top right;}
+
+.app-overwiew-box .text-box.chat .comment-text{border-radius: 8px 8px 0px 8px;-webkit-border-radius: 8px 8px 0px 8px;-moz-border-radius: 8px 8px 0px 8px;}
+
+.app-overwiew-box .text-box.space h4:before{content:"";display:block;background-image:url(../images/ico-unlimited-space.png);background-position:top center;background-repeat:no-repeat;background-size:69px 47px;width:69px;height:47px;position:absolute;top:-58px;left:0px;}
+.image-box.second{margin-left:auto;background-position:top right;}
+
+#where-userful{width:100%;min-width:970px;}
+#where-userful .container-fluid,
+#where-userful .col-xs-4{padding:0px;}
+#where-userful .container-fluid .row{margin:0px;}
+
+ul.where-userful-list{margin:0px;padding:0px;}
+ul.where-userful-list li{list-style:none;height:auto;overflow:hidden;}
+ul.where-userful-list li a{display:block;position:relative;}
+ul.where-userful-list li .image-box{width:100%;overflow:hidden;}
+ul.where-userful-list li .image-box img{width:100%;height:auto;}
+ul.where-userful-list li .image-box:after{content:"";display:block;position:absolute;left:0px;top:0px;background-color:rgba(91,174,143,0.4);width:100%;height:100%;}
+ul.where-userful-list li  span{text-align:center;display:block;font-size:23px;color:#fff;text-transform:uppercase;font-family: 'robotobold';transition: all  0.3s ease-in;-moz-transition: all  0.3s ease-in;-webkit-transition: all  0.3s ease-in;opacity:1;z-index:10;    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 150px;
+    margin-left: -75px;
+    text-align: center;}
+ul.where-userful-list li:hover  span{opacity:0;}
+
+ul.where-userful-list li a{position:absolute;top:0px;left:0px;width:100%;height:100%;background-color:#217ce5;text-align:center;opacity:0;transition: all  0.3s ease-in;-moz-transition: all  0.3s ease-in;-webkit-transition: all  0.3s ease-in; z-index:-1;}
+ul.where-userful-list li a .hidden-box h2{text-transform:uppercase;color:#fff;font-size:23px;font-family: 'robotobold';margin-top:10%;margin-bottom:47px;position:relative;}
+ul.where-userful-list li a .hidden-box h2:after{content:"";display:block;width:40px;height:2px;background-color:#fff;position:absolute;bottom:-20px;left:50%;margin-left:-20px;}
+ul.where-userful-list li a .hidden-box p{color:#fff;font-size:15px;width:315px;margin:0px auto;}
+ul.where-userful-list li:hover a{opacity:1; z-index: 10;}
+
+#where-userful .title h5{font-size:23px;}
+#where-userful {margin-bottom:61px;}
+
+
+
+/*PIBOX-INVITE*/
+.wrapper.invite{background-image:url(../images/invite_pibox.jpg);background-position:top center;background-repeat:no-repeat;background-size:cover;width:100%;min-width:970px;}
+.invite-box{padding-top:10%;min-height:600px;}
+.logo-invite{margin-bottom:25px;}
+.logo-invite a{width:45px;height:46px;background-size:45px 46px;background-image:url(../images/logo-invite.png);background-position:top center;background-repeat:no-repeat;display:block;margin:0 auto;}
+.wrapper.invite .info-text{text-align:center;width:330px;margin:0 auto;}
+.wrapper.invite .info-text p{margin-bottom:20px;font-size:14px;color:#fff;font-family: 'sf_ui_displayregular';}
+.wrapper.invite .info-text a{font-size:14px;color:#bdfce0;font-family: 'sf_ui_displayregular';text-decoration:underline;}
+.wrapper.invite .info-text a:hover{text-decoration:none;}
+
+.wrapper.invite .avatar-box{margin-top:35px;width:115px;height:115px;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;margin-left:auto;margin-right:auto;overflow:hidden;margin-bottom:30px;}
+.wrapper.invite .avatar-box img{width:100%;height:100%;}
+
+.wrapper.invite .description{text-align:center;color:#fff;text-transform:uppercase;font-size:24px;font-family: 'sf_ui_displayregular';margin-bottom:55px;}
+.wrapper.invite .description span{ font-family: 'sf_ui_displaybold';}
+
+.wrapper.invite a.sign-up-invite{    padding: 16px 49px;font-size:14px;color:#fff;font-family: 'sf_ui_displayregular';border:2px solid #fff;transition: all  0.3s ease-in;-moz-transition: all  0.3s ease-in;-webkit-transition: all  0.3s ease-in;}
+.wrapper.invite a.sign-up-invite:hover{background-color:#fff;color:#3993bc;}
+.sign-up{text-align:center;}
+
+/* FOOTER */
+#footer{height:211px;margin-top:-211px; position:relative;width:100%;min-width:970px;border-top:1px solid #e7e7e7;}
+#footer .footer-nav{display:inline-block;vertical-align:top;margin-top:47px;margin-right:61px;}
+#footer .footer-nav h5{font-size:14px;color:#3a3a3a;font-family: 'robotobold';margin-bottom:10px;margin-top:0px;}
+#footer .footer-nav ul{margin:0px;padding:0px;}
+#footer .footer-nav ul li{list-style:none;}
+#footer .footer-nav ul li a{font-size:14px;color:#217ce5;}
+.copyright{text-align:right;font-size:12px;color:#2c4353;margin-top:51px;}
+
+/* FORMS */
+
+input[type="text"], 
+input[type="email"], 
+input[type="name"], 
+input[type="tel"], 
+textarea { font-size:14px;background:#fff;padding:11px 10px;vertical-align:top !important;margin:0px;
+box-shadow:none;
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+transition: all  0.3s ease-in;-moz-transition: all  0.3s ease-in;-webkit-transition: all  0.3s ease-in;
+border-radius:0px;-webkit-border-radius:0px;-moz-border-radius:0px;-webkit-appearance:none !important;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="name"]:focus, input[type="tel"]:focus, textarea:focus{ outline:none;} 
+
+
+input[type="button"], input[type="submit"], .button a, #button a, a.button, a#button, .button, #button{color:#ffffff;padding:14px 20px;border:none;font-size:17px;-webkit-appearance:none !important;border-radius:0px;-webkit-border-radius:0px;-moz-border-radius:0px;}
+
+input[type="button"]:hover, input[type="submit"]:hover, .button:hover, #button:hover, .button a:hover, #button a:hover, a.button:hover, a#button:hover{}
+
+input[type="button"]:active, input[type="submit"]:active{border:none !important; outline:none !important;}
+input[type="button"]:focus, input[type="submit"]:focus{border:none !important;outline:none !important;}
+
+
+input::-moz-placeholder { color: #5b98c2;}
+input::-webkit-input-placeholder { color: #5b98c2;}
+textarea::-webkit-input-placeholder { color: #5b98c2;}
+textarea::-moz-placeholder { color: #5b98c2;}
+
+@media (min-width: 1200px){
+
+
+ul.where-userful-list li a span {
+
+  
+
+}
+ul.where-userful-list li a .hidden-box h2 {
+
+  margin-top:18%;
+   
+}
+ul.where-userful-list li a .hidden-box p {
+
+    width: 395px;
+
+}
+	}
+	
+	#registerFriendModal{background-color:rgba(0,19,28,0.9);}
+#registerFriendModal .modal-header,
+#registerFriendModal .modal-body{width:366px;margin:0px auto;border:none;background-color:#f2f2f2;border-radius:0px 0px 5px 5px;}
+#registerFriendModal .modal-footer{display:none;}
+#registerFriendModal .modal-header{margin-top:10%;background-color:#fff;border-radius:5px 5px 0px 0px;padding:26px 22px 26px 40px;}
+#registerFriendModal .modal-header h3{font-size:13px;color:#00212d;font-weight:bold;}
+#registerFriendModal .close{font-size:42px;color:#2f4a54 !important;font-weight:normal !important;opacity:1;text-shadow:none;margin-top: -14px;}
+#registerFriendModal .modal-body{padding:33px 40px 40px 40px;}
+#registerFriendModal input{width:100%;padding:11px 15px 11px 15px;background-color:#fff;border-radius:5px;-webkit-appearance:none;outline:none;border:1px solid #e7e7e7;margin-bottom:22px;font-size:15px;}
+#registerFriendModal .description span{font-size:13px;color:#344a52;margin-bottom:18px;display:block;}
+
+#registerFriendModal button{background-color:#599fcc;min-width:143px;height:39px;line-height:39px;text-align:center;color:#fff;border:none;margin-bottom:10px;
+transition: all  0.3s ease-in;-moz-transition: all  0.3s ease-in;-webkit-transition: all  0.3s ease-in;font-size:13px;max-width:286px;padding:0px 10px;}
+#registerFriendModal button:hover{background-color:#427596;}
